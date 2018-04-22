@@ -1,0 +1,133 @@
+
+body{
+	margin-bottom: 50px;
+	background-color: lightgreen;
+}
+div.holder{
+	width: 93%;
+	margin: 0px auto;
+
+}
+
+div.areaone{
+	width: inherit;
+	height: 415px;
+}
+
+div#subareone{
+	width: 50%;
+	float: left;
+}
+div#subareaone-1{
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+img#kenyajudiciarysystem{
+	    width: 98%;
+    margin-top: 39px;
+    margin-left: 43px;
+    height: 340px;
+}
+
+div.areathree{
+	text-align: center;
+	 height: 576px;
+
+}
+
+a#linksspecific{
+	text-decoration: none;
+	cursor: pointer;
+}
+a#linksspecific:hover{
+	text-decoration-style: dotted;
+	color: #0e3667;
+}
+div.areathreeone,
+div.areathreetwo,
+div.areathreethree{
+	width: 30%;
+	float: left;
+}
+div.areathreeone{
+	    margin-right: 30px;
+}
+div.areathreetwo{
+	    margin-right: 30px;
+}
+
+.footer	{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: purple;
+	color: white;
+	text-align: center;
+}
+	body{ font-family: Arial, Helvetica, sans-serif;}
+	* {box-sizing: border-box}
+	
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #b1b1b1;
+}
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+hr {
+	border: 1px solid #b1b1b1;
+	margin-bottom: 25px;
+}
+/* set a style for all buttons */
+button {
+	background-color: *4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+button:hover {
+	opacity:1;
+}
+/* Extra styles for the cancel button */
+. cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+}
+
+/* float cancel and signup buttons and add an eqaul width */
+
+. cancelbtn, . signupbtn{
+	float: left;
+	width: 40%;
+}
+/* Add padding to container elements */
+. containter {
+	padding: 14px;
+}
+
+/* Clear floats */
+. cleafix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 200px) {
+	. cancelbtn, . signupbtn {
+		width: 100%;
+	}
+}
